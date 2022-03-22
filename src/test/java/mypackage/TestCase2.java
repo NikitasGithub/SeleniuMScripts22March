@@ -23,6 +23,9 @@ public class TestCase2 {
 	@Test(priority='2')
 	public void testmethod2()
 	{
+
+		System.setProperty("webdriver.gecko.driver", "C:\\Users\\sonal\\Downloads\\geckodriver-v0.30.0-win32\\geckodriver.exe");
+
 		WebDriver driver1 = new FirefoxDriver();
 		driver1.manage().window().maximize();
 		driver1.get("https://www.selenium.dev/downloads/");
