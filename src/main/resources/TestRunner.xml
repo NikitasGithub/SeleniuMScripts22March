@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="TestcasesDemo" verbose="1" >
+
+  <test name="WikiPage" >
+ 
+    <classes>
+       <class name="mypackage.TestCase1" />
+    </classes>
+  </test>
+ 
+  <test name="Wikititle">
+    <classes>
+      <class name="mypackage.TestCase2"/>
+   
+    </classes>
+  </test>
+  
+    <test name="Wikinavigate">
+    <classes>
+      <class name="mypackage.TestCase4"/>
+   
+    </classes>
+  </test>
+</suite>
